@@ -90,7 +90,22 @@ header {
     background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+}
+nav{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+nav a{
+    color: white;
+    width: 30%;
+    flex-wrap: nowrap;
+    padding: 0 2%;
 }
 
 /* spacers */
