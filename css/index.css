@@ -249,7 +249,7 @@ footer nav{
     padding: 0 4%;
 }
 footer p{
-    padding-top: 3%;
+    /* padding-top: 2÷%; */
     padding-left: 45%;
     font-size: 1.5rem;
     
@@ -258,11 +258,27 @@ footer p{
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+    header div{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        padding: 4% 0;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
+    }
+
+    .gallery img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5% 0;
     }
     
     /* about us section */
