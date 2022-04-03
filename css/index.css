@@ -228,14 +228,11 @@ footer {
 .footer-email h3{
     font-size: 4rem;
 }
-footer .footer-email{
+.footer-email{
     display: flex;
     flex-direction: column;
     width: 35%;
     padding: 0 4%;
-}
-.input{
-    width: 11rem;
 }
 footer nav{
     display: flex;
@@ -324,5 +321,20 @@ footer p{
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-email{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-nav{
+        flex-direction: column;
+
     }
 }
