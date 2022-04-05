@@ -260,19 +260,21 @@ footer p{
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    header h1{
-        /* width: 70%; */
-        font-size: 6rem;
-    }
-    header div{
-        display: flex;
+   header {
+        width: 100%;
+        margin: 0 auto;
         text-align: center;
-        flex-direction: column;
+        font-size: 5rem;
     }
-    .links{
-        display: flex;
-        flex-direction: column;
-        padding: 4% 0;
+    header h1{
+        width: 60%;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 20%;
+    }
+    .links a{
+        width: 100%;
+        padding: 0 0;
     }
 
     /* gallery section */
@@ -330,22 +332,35 @@ footer p{
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
-        padding: 4% 0;
-        text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
     }
-    .footer-email{
+    footer h2{
         width: 100%;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+        font-size: 2rem;
     }
-    .footer-nav{
+    footer h3{
+        font-size: 5rem;
+    }
+    footer p, a {
+        color: rgb(225, 239, 230);
+    }
+    .mailing{
+        width: 100%;
+    }
+    .mailing input{
+    width: 100%;
+    padding: 2% 0;
+    margin-left: 0%;
+    }
+    .mailing button{
+        width: 100%;
+        padding: 2% 0;
+    }
+    footer nav{
         flex-direction: column;
     }
     footer p{
-        padding-left: 0;
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 0;
     }
 }
